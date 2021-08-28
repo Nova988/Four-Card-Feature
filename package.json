@@ -1,0 +1,22 @@
+{
+  "name": "four-card-feature-section-master",
+  "version": "1.0.0",
+  "description": "a challenge on frontendmentor.io",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --w scss -o dist/css/ --recrutive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nova988/Four-Card-Feature.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nova988/Four-Card-Feature/issues"
+  },
+  "homepage": "https://github.com/Nova988/Four-Card-Feature#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
