@@ -48,7 +48,8 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
-    grid-auto-rows: auto; }
+    grid-auto-rows: auto;
+    padding: 0 2rem; }
     #four-card-feature .cards-card {
       background: #fff;
       padding: 2rem 1.5rem;
@@ -81,7 +82,7 @@ h1 {
       grid-row: 3/6;
       border-top: 5px solid #fcaf4a; }
 
-@media (max-width: 470px) {
+@media screen and (max-width: 500px) {
   h1 {
     font-size: 1.5rem; }
   #four-card-feature .title {
@@ -95,7 +96,7 @@ h1 {
       grid-column: 1/2;
       grid-row: auto; } }
 
-@media (min-width: 471px) and (max-width: 770px) {
+@media screen and (min-width: 501px) and (max-width: 770px) {
   #four-card-feature .title {
     width: 75%; }
   #four-card-feature .cards {
@@ -114,7 +115,7 @@ h1 {
       grid-column: 2/3;
       grid-row: 2/3; } }
 
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) and (max-width: 1025px) {
   #four-card-feature .title {
     width: 75%; }
   #four-card-feature .cards {
